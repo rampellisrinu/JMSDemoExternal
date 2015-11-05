@@ -44,9 +44,7 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.22'
         compile 'org.grails.plugins:jms:1.3'
         runtime 'org.apache.activemq:activemq-spring:5.12.1'
-        compile 'org.apache.activemq:activemq-core:5.7.0'
-        compile 'org.apache.xbean:xbean-spring:4.1'
-    }
+      }
 
     plugins {
         runtime ":hibernate:$grailsVersion"
